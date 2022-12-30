@@ -1,0 +1,149 @@
+<!-- Forms for HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤝Client e-Mailinfo form</title>
+</head>
+
+<body>
+<h2> <b>></b> Sign up your information below.</h2>
+
+<form action="mailto:g099panda@gmail.com" method="post" enctype="text/plain">
+    <table>
+        <tr>
+            <td>
+                <table cellspacing="10">
+                    <tr>
+                       <td><label for="firstname"> *Enter your first name: </label></td>
+                       <td><input type="text" name="firstname" id="firstname" size="40" autocomplete="cc-name"><br></td>
+                    </tr>
+                    <tr>
+                       <td><label for="lastname"> *Enter your last name: </label></td>
+                       <td><input type="text" name="lastname" id="lastname"  size="40" autocomplete="cc-name"><br></td>
+                    </tr>
+                    <tr>
+                       <td><label for="gender"> *Select your gender: </label></td>
+                       <td>
+                           <select name="gender" id="gender">
+                               <option value="--"> --</option>
+                               <option value="male"> male</option>
+                               <option value="female">female</option>
+                               <option value="no gender">prefer not to say</option>
+                           </select>
+                       </label></td>
+                    </tr>
+                    <tr>
+                       <td><label for="homeaddress"> *Enter your address: </label></td>
+                       <td><input type="text" name="homeaddress" id="homeaddress" size="40" 
+                        autocomplete="address-line1"><br></td>
+                    </tr>
+                   <tr>
+                       <td><label for="mobile"> *Enter your phone number: </label></td>  
+                       <td><input type="tel" name="mobile" id="mobile" size="40" autocomplete="mobile"><br></td>
+                   </tr>
+                   <tr>
+                       <td><label for="e-mail"> *Enter your email: </label></td>
+                       <td><input type="email" name="e-mail" id="e-mail" size="40" autocomplete="email"><br></td>
+                   </tr>
+                   <tr>
+                       <td><label for="newpassword"> *Password: </label></td>  
+                       <td> <input type="password" name="newpassword" id="newpassword" size="40" autocomplete="new-password"></td> 
+                   </tr>
+                   <tr>
+                       <td><label for="confirm password"> *Confirm password: </label></td>
+                       <td> <input type="password" name="confirmpassword" id="confirm password"  
+                           size="40"> </td>
+                   </tr>
+                   <tr>
+                       <td><label for="digitalfile"> *Please upload your government issued ID here: </label></td>
+                       <td> <input type="file" name="digitalfile" id="digitalfile">  </td>
+                   </tr>
+                   <tr>
+                       <td><label for="date&time"> *Enter your signup date and time: </label></td>
+                       <td> <input type="datetime-local" name="date&time" id="date&time"> </td>
+                   </tr>
+                   <tr>
+                       <td><label for="range"> *How much rating would you give to this page: </label></td>
+                       <td> <input type="range" name="range" id="range" min="0" max="10"> </td>
+                   </tr>
+                   <tr>
+                       <td></td>
+                       <td>0 1 2 3 4 5 6 7 8 9 10</td>
+                   </tr>
+                   <tr>
+                       <td><label for="register_gender">Enter Gender:</label></td>  
+                       <td>  
+                   <input type="radio" name="gender" id="register_gendermale" value="male">  
+                   <label for="register_gendermale">male</label>  
+                   <input type="radio" name="gender" id="register_genderfemale" value="female">  
+                   <label for="register_genderfemale">female</label>  
+                       </td> 
+                   </tr>
+                   
+                   <tr>
+                       <td><input type="color"><br></td>
+                   </tr>
+                   <tr>
+                       <td> <label for="terms&conditions"> i agree to all tems and conditions on this page.</label></td>
+                       <td> <input type="checkbox" ></td>
+                   </tr>
+                   <tr>
+                       
+                       
+                   </tr>
+                   <tr>
+                       <td><input type="submit" value="register"> <input type="reset" value="reset form "></td>
+                   </tr>
+                  
+               </table>
+            </td>
+            <td>
+                <table>
+                    
+                    <tr>
+                        <td>
+                        </table>
+                        Leave some suggestions to improve the page. 
+                        <div> <textarea name="comments" id="comments"  cols="50" rows="10">   
+                        </textarea>
+                        <input type="submit" value="post">
+                    </div>
+                      
+
+                       </td>
+                </tr>
+                
+                
+            </td>
+        </tr>
+    </table>
+    
+</form>
+<hr size="5" noshade>
+
+
+<!-- 
+<form action="mailto:g099panda@gmail.com" method="post" enctype="text/plain">
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name"> *Enter your name: </label>
+        <input type="text" name="f&lname" id="first&lastname" size="40" autocomplete="cc-name"></legend><br>
+        <label for="e-mail"> *Enter your email: </label>
+        <input type="text" name="mailaddress" id="e-mail" size="40" autocomplete="email"><br> 
+        <input type="submit" value="submit">
+    </fieldset>
+
+    <hr size="5" noshade>
+
+
+
+</form>
+ -->
+
+
+</body>
+</html>
